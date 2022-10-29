@@ -1,11 +1,11 @@
 // Hardware Pinouts:
-// // Air Pump
+//Air Pump
 #define airPumpA 14
 #define airPumpB 15
 #define conveyorA 2
 #define conveyorB 4
 ​
-// // Drive Train
+//Drive Train
 #define rightDriveA 7
 #define rightDriveB 6
 #define rightDriveEnable 3
@@ -13,26 +13,26 @@
 #define leftDriveB 8
 #define leftDriveEnable 5
 ​
-// // Intake
+//Intake
 #define intakeA 11
 #define intakeB 10
 ​
-// // Lift
+//Lift
 #define doorMotorA 13
 #define doorMotorB 12
 ​
-// // Solenoid
+//Solenoid
 #define solenoidValve 22
 ​
-// // Radio
+//Radio
 #define radioMISO 50
 #define radioMOSI 51
 #define radioSCK 52
 #define radioCSN 49
 #define radioCE 48
-// #define radioIRQ 
+//#define radioIRQ 
 ​
-// Libraries
+//Libraries
 #include "RF24.h" //Import RF24 library
 #include <SPI.h>  //Import SPI library
 ​
